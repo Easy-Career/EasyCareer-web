@@ -109,7 +109,14 @@ body {
   .university-item img {
     width: 450px;
     height: auto;
+    border: 2px solid transparent;
+    transition: border-color 0.3s;
   }
+
+  .university-item img:hover{
+    border-color: #000;
+  }
+
   
   .university-item p {
     margin-top: 10px;
