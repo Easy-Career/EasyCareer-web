@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test Vocacional</title>
+  <link rel="stylesheet" href="testVocacional.css">
+</head>
+<body>
+    <header class="header-top">
+        <div class="logo">
+            <img src="https://drive.google.com/uc?id=1PFsZx-fKzwzf3nRyY-0ZvtKIlMFrq_x7" alt="Logo">
+            <div class="title">
+                <h1>Easy Carreer</h1>
+                <p>Encuentra tu camino con Easy Carreer</p>
+            </div>
+        </div>
+    </header>    
+    <header class="header-nav"></header>
+        <nav>
+          <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="../test.html">Test</a></li>
+            <li><a href="../universidades.html">Universidad</a></li>
+            <li><a href="../pfrecuentes.html">Preguntas Frecuentes</a></li>
+            <li><a href="../carreras.html">Carreras Profesionales</a></li>
+          </ul>
+        </nav>
+      </header>
+
+    <main>
+      <h2>Test Vocacional</h2>
+      <p>Este es el test de orientación vocacional general. No importa de qué país vengas o la edad que tengas, este test vocacional es válido tanto para adolescentes como para adultos. ¿Estás listo para descubrir tu futuro?</p>
+      <p>El proceso es sencillo. Responde a todas las preguntas de este test vocacional en línea y haz clic en "Finalizar" para saber el resultado. No olvides hacer el test específico del campo en el que mejor te desenvuelvas.</p>
+  
+      <form id="testForm">
+        <h2 class="test-title">Test</h2>
+      
+        <div class="question">
+          <p>1) A parte de los libros que te mandan en la escuela ¿con qué frecuencia lees?</p>
+          <div class="options">
+            <label class="option">
+              <input type="radio" name="opcion1" value="1"> Siempre que puedo<br>
+              <input type="radio" name="opcion1" value="2"> De vez en cuando<br>
+              <input type="radio" name="opcion1" value="3"> Muy rara vez<br>
+              <input type="radio" name="opcion1" value="4"> Nunca<br>
+            </label>
+          </div>
+        </div>
+        <div class="question">
+          <p>2) ¿Qué haces cuando estás enfermo y te mandan tomar un medicamento?</p>
+          <div class="options">
+            <label class="option">
+              <input type="radio" name="opcion2" value="1"> Lo tomo<br>
+              <input type="radio" name="opcion2" value="2"> Miro que contraindicaciones pueda tener<br>
+              <input type="radio" name="opcion2" value="3"> Leo el prospecto de arriba a abajo<br>
+              <input type="radio" name="opcion2" value="4"> Investigo si hay mejores opciones<br>
+            </label>
+          </div>
+        </div>
+        <div class="question">
+          <p>3) Tu nota media de matemáticas en la preparatoria fue de:</p>
+          <div class="options">
+            <label class="option">
+              <input type="radio" name="opcion3" value="1"> Entre 10 y 12<br>
+              <input type="radio" name="opcion3" value="2"> Entre 13 y 15<br>
+              <input type="radio" name="opcion3" value="3"> Entre 16 y 18<br>
+              <input type="radio" name="opcion3" value="4"> Entre 19 y 20<br>
+            </label>
+          </div>
+        </div>
+        <div class="question">
+          <p>4) Tu nota media de lengua en la preparatoria fue de:</p>
+          <div class="options">
+            <label class="option">
+              <input type="radio" name="opcion4" value="1"> Entre 10 y 12<br>
+              <input type="radio" name="opcion4" value="2"> Entre 13 y 15<br>
+              <input type="radio" name="opcion4" value="3"> Entre 16 y 18<br>
+              <input type="radio" name="opcion4" value="4"> Entre 19 y 20<br>
+            </label>
+          </div>
+        </div>
+        <div class="question">
+          <p>5) Tu nota media de ciencias en la preparatoria fue de:</p>
+          <div class="options">
+            <label class="option">
+              <input type="radio" name="opcion5" value="1"> Entre 10 y 12<br>
+              <input type="radio" name="opcion5" value="2"> Entre 13 y 15<br>
+              <input type="radio" name="opcion5" value="3"> Entre 16 y 18<br>
+              <input type="radio" name="opcion5" value="4"> Entre 19 y 20<br>
+            </label>
+          </div>
+        </div>
+        <div class="question">
+          <p>6) ¿Perteneces a alguna asociación de ayuda social?</p>
+          <div class="options">
+            <label class="option">
+              <input type="radio" name="opcion6" value="1"> No entra en mis planes<br>
+              <input type="radio" name="opcion6" value="2"> Es algo que quiero hacer más adelante<br>
+              <input type="radio" name="opcion6" value="3"> Ya participo activamente en una<br>
+              <input type="radio" name="opcion6" value="4"> Ayudo indirectamente<br>
+            </label>
+          </div>
+        </div>
+        
+        <button id="submitBtn" onclick="startTest()">Enviar</button>
+        
+      </form>
+      
+      <div class="popup" id="popup1">
+        <img src="https://humanidades.com/wp-content/uploads/2018/08/bellas-artes-e1576727081766.jpg" alt="Imagen 1">
+        <h3>Artes</h3>
+        <p>Este apasionante campo te brindará la oportunidad de explorar y expresar tu creatividad a través de diferentes formas artísticas. Podrás sumergirte en disciplinas como pintura, escultura, música, danza y mucho más. Con cada trazo, nota o movimiento, podrás transmitir emociones, contar historias y capturar la belleza del mundo. Las Artes te permitirán dejar una huella única en la sociedad, inspirar a otros y explorar nuevas perspectivas. </p>
+        <button>Aceptar</button>
+      </div>
+      
+      <div class="popup" id="popup2">
+        <img src="https://www.magisnet.com/wp-content/uploads/2020/01/enseñar-ciencias.jpg" alt="Imagen 2">
+        <h3>Ciencias</h3>
+        <p>En este amplio campo de estudio, tendrás la oportunidad de explorar disciplinas como biología, química y física. Te sumergirás en la investigación de fenómenos naturales y descubrirás su aplicación en campos vitales como medicina, tecnología y medio ambiente. Como científico, desempeñarás un papel clave en el avance de la sociedad y la búsqueda de soluciones a los desafíos actuales y futuros. </p>
+        <button>Aceptar</button>
+      </div>
+      
+      <div class="popup" id="popup3">
+        <img src="https://cdn.ethic.es/wp-content/uploads/2020/02/cultura-humanidades.jpg" alt="Imagen 3">
+        <h3>Humanidades</h3>
+        <p>Las carreras de humanidades exploran el estudio de la cultura, el lenguaje, la historia y la sociedad. Se centran en comprender el pensamiento humano, las expresiones artísticas y los desafíos éticos, brindando una visión amplia y enriquecedora del mundo.</p>
+        <button>Aceptar</button>
+      </div>
+      
+      <div class="popup" id="popup4">
+        <img src="https://287524.fs1.hubspotusercontent-na1.net/hubfs/287524/Imported_Blog_Media/que-es-ingenieria-todo-sobre-el-camino-profesional-2-compressor-2.jpg" alt="Imagen 1">
+        <h3>Ingenieria</h3>
+        <p>La ingeniería es una disciplina que aplica conocimientos científicos y técnicos para diseñar, construir y mejorar soluciones prácticas a problemas. Los ingenieros utilizan su creatividad y habilidades para crear tecnología y hacer que las cosas funcionen de manera eficiente.</p>
+        <button>Aceptar</button>
+      </div>
+    </main>
+    <script src="testVocacional.js"></script>
+
+  </body>
+</html>
