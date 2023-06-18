@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test Vocacional</title>
+  <link rel="stylesheet" href="testMedicina.css">
+</head>
+<body>
+    <header class="header-top">
+        <div class="logo">
+            <img src="https://drive.google.com/uc?id=1PFsZx-fKzwzf3nRyY-0ZvtKIlMFrq_x7" alt="Logo">
+            <div class="title">
+                <h1>Easy Carreer</h1>
+                <p>Encuentra tu camino con Easy Carreer</p>
+            </div>
+        </div>
+    </header>    
+    <header class="header-nav"></header>
+        <nav>
+          <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="../test.html">Test</a></li>
+            <li><a href="../universidades.html">Universidad</a></li>
+            <li><a href="../pfrecuentes.html">Preguntas Frecuentes</a></li>
+            <li><a href="../carreras.html">Carreras Profesionales</a></li>
+          </ul>
+        </nav>
+      </header>
+
+    <main>
+      <h2>Test Vocacional de Medicina</h2>
+      <p>Este es el test de orientación vocacional de Medicina. No importa de qué país vengas o la edad que tengas, este test vocacional es válido tanto para adolescentes como para adultos. ¿Estás listo para descubrir tu futuro?</p>
+      <p>El proceso es sencillo. Responde a todas las preguntas de este test vocacional en línea y haz clic en "Finalizar" para saber el resultado. No olvides hacer el test específico del campo en el que mejor te desenvuelvas.</p>
+  
+      <form id="testForm">
+        <h2 class="test-title">Test</h2>
+      
+        <div class="question">
+          <p>1) ¿Cuál de las siguientes actividades disfrutas más?</p>
+          <div class="options">
+            <label class="option">
+              <input type="radio" name="opcion1" value="1"> Escuchar y brindar consejos a tus amigos y familiares<br>
+              <input type="radio" name="opcion1" value="2"> Investigar y aprender sobre temas médicos y de salud<br>
+              <input type="radio" name="opcion1" value="3"> Realizar actividades prácticas y trabajar con tus manos<br>
+              <input type="radio" name="opcion1" value="4"> Organizar y liderar proyectos o eventos<br>
+            </label>
+          </div>
+        </div>
+        <div class="question">
+          <p>2) ¿Qué tipo de problemas te gusta resolver??</p>
+          <div class="options">
+            <label class="option">
+              <input type="radio" name="opcion2" value="1"> Problemas emocionales y de bienestar de las personas<br>
+              <input type="radio" name="opcion2" value="2"> Problemas complejos y desafiantes que requieren análisis y diagnóstico<br>
+              <input type="radio" name="opcion2" value="3"> Problemas relacionados con el cuidado y tratamiento de enfermedades<br>
+              <input type="radio" name="opcion2" value="4"> Problemas organizativos y de gestión en equipos o proyectos<br>
+            </label>
+          </div>
+        </div>
+        <div class="question">
+          <p>3) ¿En qué área te gustaría aprender más?</p>
+          <div class="options">
+            <label class="option">
+              <input type="radio" name="opcion3" value="1"> El impacto de la salud mental en el bienestar general de las personas<br>
+              <input type="radio" name="opcion3" value="2"> La complejidad del cuerpo humano y cómo funcionan los sistemas internos<br>
+              <input type="radio" name="opcion3" value="3"> Los tratamientos y cuidados relacionados con la piel, cabello y uñas<br>
+              <input type="radio" name="opcion3" value="4"> La gestión de equipos médicos y la organización de servicios de salud<br>
+            </label>
+          </div>
+        </div>
+        <div class="question">
+          <p>4) ¿Qué cualidad te resulta más importante en un médico?</p>
+          <div class="options">
+            <label class="option">
+              <input type="radio" name="opcion4" value="1"> Empatía y capacidad para escuchar a los pacientes<br>
+              <input type="radio" name="opcion4" value="2"> Conocimiento profundo y habilidades de investigación<br>
+              <input type="radio" name="opcion4" value="3"> Habilidad técnica y destreza en procedimientos médicos<br>
+              <input type="radio" name="opcion4" value="4"> Habilidades de liderazgo y capacidad para tomar decisiones rápidas<br>
+            </label>
+          </div>
+        </div>
+        <div class="question">
+          <p>5) ¿Qué tipo de entorno de trabajo prefieres?</p>
+          <div class="options">
+            <label class="option">
+              <input type="radio" name="opcion5" value="1"> Trabajar en estrecha colaboración con pacientes y comunidades<br>
+              <input type="radio" name="opcion5" value="2"> Estar inmerso en la investigación y el estudio constante<br>
+              <input type="radio" name="opcion5" value="3"> Trabajar en un entorno clínico o en un consultorio médico<br>
+              <input type="radio" name="opcion5" value="4"> Participar en equipos multidisciplinarios y liderar proyectos<br>
+            </label>
+          </div>
+        </div>
+        <div class="question">
+          <p>6) ¿Qué te motiva más en el campo de la medicina?</p>
+          <div class="options">
+            <label class="option">
+              <input type="radio" name="opcion6" value="1"> Ayudar a las personas a superar problemas emocionales y mejorar su bienestar mental<br>
+              <input type="radio" name="opcion6" value="2"> Descubrir y comprender nuevas enfermedades y tratamientos<br>
+              <input type="radio" name="opcion6" value="3"> Mejorar la apariencia y la salud de la piel y las uñas<br>
+              <input type="radio" name="opcion6" value="4"> Organizar y liderar equipos médicos para brindar una atención de calidad<br>
+            </label>
+          </div>
+        </div>
+        
+        <button id="submitBtn" onclick="startTest()">Enviar</button>
+        
+      </form>
+      
+      <div class="popup" id="popup1">
+        <img src="https://image.jimcdn.com/app/cms/image/transf/dimension=1366x10000:format=jpg/path/s31592329ad9f15e8/image/icf362c936fe8b08e/version/1608703756/image.jpg" alt="Imagen 1">
+        <h3>Medicina Deportiva</h3>
+        <p>Como médico deportivo, te sumergirás en el apasionante mundo del deporte y la actividad física. Tendrás la oportunidad de trabajar con atletas de élite y personas activas para optimizar su rendimiento y ayudarlos a recuperarse de lesiones deportivas. Imagina la emoción de estar en el corazón de la acción deportiva y contribuir al éxito de tus pacientes.</p>
+        <button>Aceptar</button>
+      </div>
+      
+      <div class="popup" id="popup2">
+        <img src="https://centromedicopeninsular.com/wp-content/uploads/2020/03/service__details1.jpg" alt="Imagen 2">
+        <h3>Medicina General</h3>
+        <p>Como médico general, tendrás la oportunidad de brindar atención médica integral a personas de todas las edades. Serás la primera persona a la que acudirán los pacientes en busca de ayuda y orientación. Imagina el impacto que podrías tener al diagnosticar enfermedades, proporcionar tratamientos efectivos y promover un estilo de vida saludable.</p>
+        <button>Aceptar</button>
+      </div>
+      
+      <div class="popup" id="popup3">
+        <img src="https://hospitalvozandes.com/wp-content/uploads/2022/06/shutterstock_2016115475-1-scaled.jpg" alt="Imagen 3">
+        <h3>Cirugia</h3>
+        <p> Como cirujano, entrarás al quirófano con valentía y precisión para ayudar a tus pacientes a superar desafíos médicos y quirúrgicos. Serás el héroe que salva vidas en momentos críticos. Imagina la satisfacción que sentirás al realizar intervenciones quirúrgicas exitosas y mejorar la calidad de vida de tus pacientes.</p>
+        <button>Aceptar</button>
+      </div>
+      
+      <div class="popup" id="popup4">
+        <img src="https://confiasalud.pe/wp-content/uploads/2022/05/dermatologia-1000x500.jpg" alt="Imagen 1">
+        <h3>Dermatologia</h3>
+        <p>Como dermatólogo, serás un experto en el cuidado de la piel y ayudarás a tus pacientes a enfrentar los desafíos dermatológicos con confianza. Podrás diagnosticar y tratar una amplia gama de condiciones de la piel, desde el acné hasta el cáncer de piel. Pero eso no es todo, también tendrás la oportunidad de realizar procedimientos estéticos para mejorar la apariencia y la confianza de tus pacientes</p>
+        <button>Aceptar</button>
+      </div>
+    </main>
+    <script src="testMedicina.js"></script>
+
+  </body>
+</html>

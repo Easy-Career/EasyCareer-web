@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test de Ciencias</title>
+  <link rel="stylesheet" href="testCiencias.css">
+</head>
+<body>
+    <header class="header-top">
+        <div class="logo">
+            <img src="https://drive.google.com/uc?id=1PFsZx-fKzwzf3nRyY-0ZvtKIlMFrq_x7" alt="Logo">
+            <div class="title">
+                <h1>Easy Carreer</h1>
+                <p>Encuentra tu camino con Easy Carreer</p>
+            </div>
+        </div>
+    </header>    
+    <header class="header-nav"></header>
+        <nav>
+          <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="../test.html">Test</a></li>
+            <li><a href="../universidades.html">Universidad</a></li>
+            <li><a href="../pfrecuentes.html">Preguntas Frecuentes</a></li>
+            <li><a href="../carreras.html">Carreras Profesionales</a></li>
+          </ul>
+        </nav>
+      </header>
+
+    <main>
+      <h2>Test de Ciencias</h2>
+      <p>Este es el test de orientación vocacional de Ciencias. No importa de qué país vengas o la edad que tengas, este test vocacional es válido tanto para adolescentes como para adultos. ¿Estás listo para descubrir tu futuro en Ciencias?</p>
+      <p>El proceso es sencillo. Responde a todas las preguntas de este test vocacional en línea y haz clic en "Finalizar" para saber el resultado. No olvides hacer el test específico del campo en el que mejor te desenvuelvas.</p>
+  
+      <form id="testForm">
+        <h2 class="test-title">Test</h2>
+      
+        <div class="question">
+          <p>1) ¿Cuál de estas actividades disfrutas más en tu tiempo libre?</p>
+          <div class="options">
+            <label class="option">
+              <input type="radio" name="opcion1" value="1"> Investigar sobre enfermedades y tratamientos médicos<br>
+              <input type="radio" name="opcion1" value="2"> Explorar la naturaleza y observar plantas y animales<br>
+              <input type="radio" name="opcion1" value="3"> Realizar experimentos caseros y construir cosas<br>
+              <input type="radio" name="opcion1" value="4"> Investigar productos químicos y sus usos cotidianos.<br>
+            </label>
+          </div>
+        </div>
+        <div class="question">
+          <p>2) ¿Qué te parece más interesante aprender sobre el funcionamiento del cuerpo humano?</p>
+          <div class="options">
+            <label class="option">
+              <input type="radio" name="opcion2" value="1"> Cómo prevenir y tratar enfermedades<br>
+              <input type="radio" name="opcion2" value="2"> Cómo los alimentos afectan nuestra salud<br>
+              <input type="radio" name="opcion2" value="3"> Cómo el ejercicio impacta nuestro organismo<br>
+              <input type="radio" name="opcion2" value="4"> Cómo nuestro cerebro procesa la información<br>
+            </label>
+          </div>
+        </div>
+        <div class="question">
+          <p>3) ¿Qué tipo de descubrimientos científicos te emocionan más?</p>
+          <div class="options">
+            <label class="option">
+              <input type="radio" name="opcion3" value="1"> Nuevos medicamentos o tratamientos médicos<br>
+              <input type="radio" name="opcion3" value="2"> Descubrimientos sobre nuevos ecosistemas y especies<br>
+              <input type="radio" name="opcion3" value="3"> Avances en tecnología y dispositivos electrónicos<br>
+              <input type="radio" name="opcion3" value="4"> Nuevos materiales y productos químicos innovadores<br>
+            </label>
+          </div>
+        </div>
+        <div class="question">
+          <p>4) ¿Cuál de estos fenómenos naturales te parece más fascinante?</p>
+          <div class="options">
+            <label class="option">
+              <input type="radio" name="opcion4" value="1"> El sistema inmunológico y cómo combate las enfermedades<br>
+              <input type="radio" name="opcion4" value="2"> La cadena alimentaria y cómo los organismos interactúan<br>
+              <input type="radio" name="opcion4" value="3"> El movimiento de los planetas y las estrellas en el espacio<br>
+              <input type="radio" name="opcion4" value="4"> Las reacciones químicas y cómo transforman las sustancias<br>
+            </label>
+          </div>
+        </div>
+        <div class="question">
+          <p>5) ¿Qué tipo de avances científicos te gustaría ver aplicados en la vida cotidiana?</p>
+          <div class="options">
+            <label class="option">
+              <input type="radio" name="opcion5" value="1"> Tratamientos médicos más efectivos y accesibles<br>
+              <input type="radio" name="opcion5" value="2"> Soluciones sostenibles para la conservación del medio ambiente<br>
+              <input type="radio" name="opcion5" value="3"> Dispositivos tecnológicos más avanzados y eficientes<br>
+              <input type="radio" name="opcion5" value="4"> Productos químicos seguros y amigables con el medio ambiente<br>
+            </label>
+          </div>
+        </div>
+        <div class="question">
+          <p>6) ¿Cuál de estas áreas crees que tendría un impacto más directo en la vida diaria de las personas?</p>
+          <div class="options">
+            <label class="option">
+              <input type="radio" name="opcion6" value="1"> Medicina y salud<br>
+              <input type="radio" name="opcion6" value="2"> Ecología y conservación del medio ambiente<br>
+              <input type="radio" name="opcion6" value="3"> Tecnología y avances electrónicos<br>
+              <input type="radio" name="opcion6" value="4"> Industria y desarrollo de nuevos materiales<br>
+            </label>
+          </div>
+        </div>
+        
+        <button id="submitBtn" onclick="startTest()">Enviar</button>
+        
+      </form>
+      
+      <div class="popup" id="popup1">
+        <img src="https://www.gaceta.unam.mx/wp-content/uploads/2020/01/200127-Aca1-des-f1-biologo.jpg" alt="Imagen 1">
+        <h3>Biologia</h3>
+        <p>La elección de Biología es fascinante. Te llevará a explorar y comprender los misterios de la vida misma. Descubrirás cómo funcionan los seres vivos en su nivel más fundamental, desde las células hasta los ecosistemas completos. Tus investigaciones y contribuciones ayudarán a expandir el conocimiento científico y a conservar la preciosa biodiversidad de nuestro planeta. </p>
+        <button>Aceptar</button>
+      </div>
+      
+      <div class="popup" id="popup2">
+        <img src="https://humanidades.com/wp-content/uploads/2018/08/bellas-artes-e1576727081766.jpg" alt="Imagen 2">
+        <h3>Geologia</h3>
+        <p>Con Geología, te convertirás en un explorador de la Tierra. Descubrirás los secretos de cómo se formaron montañas, cómo evolucionaron los océanos y cómo se desarrollaron los recursos naturales. Tu conocimiento será valioso para identificar y proteger nuestro planeta, así como para mitigar los riesgos geológicos. Serás un defensor del medio ambiente y desempeñarás un papel crucial en la preservación de la Tierra para las generaciones futuras. </p>
+        <button>Aceptar</button>
+      </div>
+      
+      <div class="popup" id="popup3">
+        <img src="https://humanidades.com/wp-content/uploads/2018/08/bellas-artes-e1576727081766.jpg" alt="Imagen 3">
+        <h3>Fisica-Quimica</h3>
+        <p>La Física es una elección inspiradora. Imagina que te adentras en el mundo del conocimiento fundamental del universo. Descubrirás las leyes que rigen todo, desde las partículas subatómicas hasta las galaxias distantes. Con tus habilidades y perspicacia, podrás desarrollar tecnologías innovadoras y soluciones prácticas para los desafíos cotidianos. </p>
+        <button>Aceptar</button>
+      </div>
+      
+      <div class="popup" id="popup4">
+        <img src="https://humanidades.com/wp-content/uploads/2018/08/bellas-artes-e1576727081766.jpg" alt="Imagen 1">
+        <h3>Matematicas</h3>
+        <p>Elegir Matemáticas es un camino lleno de posibilidades ilimitadas. Serás un solucionador de problemas y un creador de modelos matemáticos para predecir el comportamiento de sistemas complejos. Tus habilidades serán altamente demandadas en una variedad de campos, desde la economía hasta la informática y la criptografía.</p>
+        <button>Aceptar</button>
+      </div>
+    </main>
+    <script src="testCiencias.js"></script>
+
+  </body>
+</html>
+
+
+

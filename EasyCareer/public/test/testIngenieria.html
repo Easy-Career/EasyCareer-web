@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test Vocacional</title>
+  <link rel="stylesheet" href="testIngenieria.css">
+</head>
+<body>
+    <header class="header-top">
+        <div class="logo">
+            <img src="https://drive.google.com/uc?id=1PFsZx-fKzwzf3nRyY-0ZvtKIlMFrq_x7" alt="Logo">
+            <div class="title">
+                <h1>Easy Carreer</h1>
+                <p>Encuentra tu camino con Easy Carreer</p>
+            </div>
+        </div>
+    </header>    
+    <header class="header-nav"></header>
+        <nav>
+          <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="../test.html">Test</a></li>
+            <li><a href="../universidades.html">Universidad</a></li>
+            <li><a href="../pfrecuentes.html">Preguntas Frecuentes</a></li>
+            <li><a href="../carreras.html">Carreras Profesionales</a></li>
+          </ul>
+        </nav>
+      </header>
+
+    <main>
+      <h2>Test Vocacional de Ingenieria</h2>
+      <p>Este es el test de orientación vocacional de Ingenieria. No importa de qué país vengas o la edad que tengas, este test vocacional es válido tanto para adolescentes como para adultos. ¿Estás listo para descubrir tu futuro?</p>
+      <p>El proceso es sencillo. Responde a todas las preguntas de este test vocacional en línea y haz clic en "Finalizar" para saber el resultado. No olvides hacer el test específico del campo en el que mejor te desenvuelvas.</p>
+  
+      <form id="testForm">
+        <h2 class="test-title">Test</h2>
+      
+        <div class="question">
+          <p>1) Cuando te enfrentas a un problema, ¿cuál es tu enfoque preferido para encontrar una solución?</p>
+          <div class="options">
+            <label class="option">
+              <input type="radio" name="opcion1" value="1"> Analizar y descomponer el problema en pasos más pequeños<br>
+              <input type="radio" name="opcion1" value="2"> Observar y examinar detenidamente los detalles del problema<br>
+              <input type="radio" name="opcion1" value="3"> Experimentar con diferentes enfoques y soluciones<br>
+              <input type="radio" name="opcion1" value="4"> Diseñar y construir prototipos para resolver el problema<br>
+            </label>
+          </div>
+        </div>
+        <div class="question">
+          <p>2) ¿Qué te motiva más en un proyecto a largo plazo?</p>
+          <div class="options">
+            <label class="option">
+              <input type="radio" name="opcion2" value="1"> Lograr un resultado final funcional y de alta calidad<br>
+              <input type="radio" name="opcion2" value="2"> Garantizar que el proyecto sea sostenible y respetuoso con el medio ambiente<br>
+              <input type="radio" name="opcion2" value="3"> Innovar y encontrar nuevas formas de abordar desafíos<br>
+              <input type="radio" name="opcion2" value="4"> Optimizar y mejorar continuamente el proyecto a medida que avanza<br>
+            </label>
+          </div>
+        </div>
+        <div class="question">
+          <p>3) ¿Qué aspecto de la tecnología te resulta más fascinante?</p>
+          <div class="options">
+            <label class="option">
+              <input type="radio" name="opcion3" value="1"> La capacidad de mejorar la eficiencia y la productividad<br>
+              <input type="radio" name="opcion3" value="2"> La posibilidad de crear soluciones sostenibles y amigables con el medio ambiente<br>
+              <input type="radio" name="opcion3" value="3"> La oportunidad de desarrollar nuevas y emocionantes tecnologías<br>
+              <input type="radio" name="opcion3" value="4"> La capacidad de diseñar y construir sistemas complejos y funcionales<br>
+            </label>
+          </div>
+        </div>
+        <div class="question">
+          <p>4) ¿Qué tipo de proyectos te atraen más?</p>
+          <div class="options">
+            <label class="option">
+              <input type="radio" name="opcion4" value="1"> La construcción de estructuras impresionantes y duraderas<br>
+              <input type="radio" name="opcion4" value="2"> La creación de soluciones innovadoras para la conservación de energía y recursos<br>
+              <input type="radio" name="opcion4" value="3"> La investigación y el desarrollo de tecnologías de vanguardia<br>
+              <input type="radio" name="opcion4" value="4"> La implementación de sistemas y dispositivos eléctricos y electrónicos<br>
+            </label>
+          </div>
+        </div>
+        <div class="question">
+          <p>5) ¿Qué rol prefieres desempeñar en un equipo de trabajo?</p>
+          <div class="options">
+            <label class="option">
+              <input type="radio" name="opcion5" value="1"> Planificador y organizador<br>
+              <input type="radio" name="opcion5" value="2"> Investigador y analista<br>
+              <input type="radio" name="opcion5" value="3"> Innovador y generador de ideas<br>
+              <input type="radio" name="opcion5" value="4"> Diseñador y constructor<br>
+            </label>
+          </div>
+        </div>
+        <div class="question">
+          <p>6) ¿Qué tipo de desafíos disfrutas enfrentar?</p>
+          <div class="options">
+            <label class="option">
+              <input type="radio" name="opcion6" value="1"> Resolver problemas técnicos y garantizar la seguridad en proyectos de construcción<br>
+              <input type="radio" name="opcion6" value="2"> Encontrar soluciones energéticas y ambientalmente sostenibles<br>
+              <input type="radio" name="opcion6" value="3"> Desarrollar nuevas tecnologías disruptivas y soluciones innovadoras<br>
+              <input type="radio" name="opcion6" value="4"> Diseñar sistemas complejos y funcionales que cumplan con los requisitos específicos<br>
+            </label>
+          </div>
+        </div>
+        
+        <button id="submitBtn" onclick="startTest()">Enviar</button>
+        
+      </form>
+      
+      <div class="popup" id="popup1">
+        <img src="https://blogs.ucontinental.edu.pe/wp-content/uploads/2022/05/te-gusta-la-construccion-seis-razones-para-estudiar-ingenieria-civil-universidad-continental-4.jpg" alt="Imagen 1">
+        <h3>Ingenieria Civil</h3>
+        <p>¡Prepárate para dejar tu huella en el mundo físico! Como ingeniero civil, tendrás la oportunidad de diseñar y construir estructuras impresionantes que mejorarán la calidad de vida de las personas. Desde la planificación de carreteras y puentes hasta la construcción de rascacielos y sistemas de agua potable, tu trabajo será fundamental para el desarrollo y la infraestructura de nuestras ciudades.</p>
+        <button>Aceptar</button>
+      </div>
+      
+      <div class="popup" id="popup2">
+        <img src="https://media.istockphoto.com/id/1314271305/es/foto/trabajadora-de-fábrica-asiática-sostiene-tableta-y-mantenimiento-con-parte-de-cheques-de.webp?s=1024x1024&w=is&k=20&c=dHAzAuRqu0t0o2iPIprUWB-mnZkIHWWSJecENMxIEdc=" alt="Imagen 2">
+        <h3>Ingenieria Mecanica </h3>
+        <p>¡Te adentrarás en un mundo de creatividad e innovación! Como ingeniero mecánico, serás el arquitecto de máquinas y sistemas que impulsan nuestra sociedad. Diseñarás y construirás desde motores y vehículos hasta equipos de producción industrial y sistemas robóticos. Tu trabajo llevará la tecnología a nuevas alturas, mejorando la eficiencia, la productividad y la sostenibilidad.</p>
+        <button>Aceptar</button>
+      </div>
+      
+      <div class="popup" id="popup3">
+        <img src="https://grados.uemc.es/hubfs/Blog/Imágenes/ingenieria-informatica-asignaturas-salidas-profesionales-1.jpg" alt="Imagen 3">
+        <h3>Ingenieria Informatica</h3>
+        <p> ¡Bienvenido al mundo digital en constante evolución! Como ingeniero informático, serás un pionero en la era de la tecnología y la innovación. Tu creatividad y habilidades técnicas te permitirán desarrollar software y sistemas que impulsan la comunicación, la seguridad, el entretenimiento y mucho más. Estarás en la vanguardia de la revolución tecnológica, creando soluciones inteligentes y transformadoras.</p>
+        <button>Aceptar</button>
+      </div>
+      
+      <div class="popup" id="popup4">
+        <img src="https://gestion.pe/resizer/yXQMeoVMhOqmzIB5xPAGJ5pWsnU=/580x330/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/5QSM4VFFMBDALBE2D6WQ5M4VIU.jpg" alt="Imagen 1">
+        <h3>Ingenieria Electrica</h3>
+        <p>¡Desata tu potencial en el mundo de la energía y la electrónica! Como ingeniero eléctrico, jugarás un papel esencial en la generación, transmisión y distribución de energía eléctrica. Además, estarás en el corazón de la revolución tecnológica, desarrollando sistemas de comunicación, dispositivos electrónicos y tecnologías de vanguardia. Tu trabajo contribuirá a un futuro más sostenible y eficiente, utilizando fuentes renovables y creando soluciones energéticas innovadoras.</p>
+        <button>Aceptar</button>
+      </div>
+    </main>
+    <script src="testIngenieria.js"></script>
+
+  </body>
+</html>
