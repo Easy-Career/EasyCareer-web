@@ -160,6 +160,10 @@ body {
     margin-bottom: 20px;
   }
 
+  .basico {
+    display: block;
+  }
+
   .salario {
     display: none;
   }
@@ -195,6 +199,9 @@ body {
     display: none;
   }
   .requisitoUbicacion {
+    display: none;
+  }
+  .requisitoDificultad {
     display: none;
   }
   .popularUbicacion {
@@ -251,7 +258,6 @@ body {
   .requisitoPopularUbicacionDificultad {
     display: none;
   }
-
   
 
   
