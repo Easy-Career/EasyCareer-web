@@ -160,6 +160,97 @@ body {
     margin-bottom: 20px;
   }
 
+  .salario {
+    display: none;
+  }
+
+  .requisitos {
+    display: none;
+  }
+  .popular {
+    display: none;
+  }
+  .ubicacion {
+    display: none;
+  }
+  .dificultad {
+    display: none;
+  }
+  .todos {
+    display: none;
+  }
+  .salarioRequisito {
+    display: none;
+  }
+  .salarioPopular {
+    display: none;
+  }
+  .salarioUbicacion {
+    display: none;
+  }
+  .salarioDificultad {
+    display: none;
+  }
+  .requisitoPopular {
+    display: none;
+  }
+  .requisitoUbicacion {
+    display: none;
+  }
+  .popularUbicacion {
+    display: none;
+  }
+  .popularDificultad {
+    display: none;
+  }
+  .ubicacionDificultad {
+    display: none;
+  }
+  .salarioRequisitoPopular {
+    display: none;
+  }
+  .requisitoPopularUbicacion {
+    display: none;
+  }
+  .salarioUbicacionDificultad {
+    display: none;
+  }
+  .requisitoPopularDificultad {
+    display: none;
+  }
+  .salarioPopularDificultad {
+    display: none;
+  }
+  .requisitoUbicacionDificultad {
+    display: none;
+  }
+  .salarioRequisitoUbicacion {
+    display: none;
+  }
+  .popularUbicacionDificultad {
+    display: none;
+  }
+  .salarioPopularUbicacion {
+    display: none;
+  }
+  .salarioRequisitoDificultad {
+    display: none;
+  }
+  .salarioRequisitoPopularUbicacion {
+    display: none;
+  }
+  .salarioRequisitoPopularDificultad {
+    display: none;
+  }
+  .salarioRequisitoUbicacionDificultad {
+    display: none;
+  }
+  .salarioPopularUbicacionDificultad {
+    display: none;
+  }
+  .requisitoPopularUbicacionDificultad {
+    display: none;
+  }
 
   
 
