@@ -20,12 +20,74 @@
   "carreras": [
     {
       "id": 1,
-      "nombre": "medicina",
+      "nombre": "Medicina",
       "salario": "Salario aproximado: $100,000 - $300,000.",
       "requisitos": "Es una carrera que se enfoca en el estudio de la salud humana y el diagnóstico y tratamiento de enfermedades. Los médicos pueden trabajar en una variedad de entornos, como hospitales, clínicas, consultorios privados o en investigación.",
       "popular": "Es una de las carreras más populares y cuenta con un gran número de profesionales en ejercicio.",
       "ubicacion": "Universidad Nacional Mayor de San Marcos, Universidad Peruana Cayetano Heredia, Universidad de Lima, Universidad Peruana de Ciencias Aplicadas (UPC).",
       "dificultad": "Dificultad - 9."
+    },
+    {
+      "id": 2,
+      "nombre": "Derecho",
+      "salario": "Salario aproximado: $100,000 - $300,000.",
+      "requisitos": "Esta carrera se enfoca en el estudio de las leyes y reglamentos, y en cómo se aplican en diferentes situaciones. Los abogados pueden trabajar en el sector público o privado, y pueden especializarse en áreas como derecho penal, empresarial, ambiental, entre otros.",
+      "popular": "Es una profesión popular con una gran cantidad de personas ejerciéndola.",
+      "ubicacion": "Pontificia Universidad Católica del Perú (PUCP), Universidad de Lima, Universidad Nacional Mayor de San Marcos, Universidad de San Martín de Porres (USMP).",
+      "dificultad": "Dificultad - 8."
+    },
+    {
+      "id": 3,
+      "nombre": "Ingenieria Civil",
+      "salario": "Salario aproximado: $70,000 - $120,000.",
+      "requisitos": "Esta carrera se enfoca en la planificación, diseño, construcción y mantenimiento de infraestructuras, como edificios, carreteras, puentes, aeropuertos, entre otros.",
+      "popular": "Es una carrera popular y cuenta con un número considerable de ingenieros civiles en ejercicio.",
+      "ubicacion": "Universidad Nacional de Ingeniería (UNI), Pontificia Universidad Católica del Perú (PUCP), Universidad de Lima, Universidad San Ignacio de Loyola (USIL).",
+      "dificultad": "Dificultad - 7."
+    },
+    {
+      "id": 4,
+      "nombre": "Administracion de Empresas",
+      "salario": "Salario aproximado: $50,000 - $120,000.",
+      "requisitos": "Esta carrera se enfoca en el estudio de la gestión de empresas y organizaciones. Los egresados pueden trabajar en una variedad de sectores y ocupar cargos como gerentes, consultores, analistas financieros, entre otros.",
+      "popular": "Es una profesión popular y ampliamente ejercida.",
+      "ubicacion": "Universidad de Lima, Universidad del Pacífico, Universidad Peruana de Ciencias Aplicadas (UPC), Universidad San Ignacio de Loyola (USIL).",
+      "dificultad": "Dificultad - 5."
+    },
+    {
+      "id": 5,
+      "nombre": "Arquitectura",
+      "salario": "Salario aproximado: $45,000 - $100,000.",
+      "requisitos": "Esta carrera se enfoca en el diseño y construcción de edificios y estructuras. Los arquitectos pueden trabajar en el sector privado o público, y pueden especializarse en áreas como diseño de interiores, urbanismo, restauración, entre otros.",
+      "popular": "Es una profesión con una cantidad significativa de arquitectos en ejercicio.",
+      "ubicacion": "Universidad Nacional de Ingeniería (UNI), Pontificia Universidad Católica del Perú (PUCP), Universidad Ricardo Palma, Universidad Peruana de Ciencias Aplicadas (UPC).",
+      "dificultad": "Dificultad - 7."
+    },{
+      "id": 6,
+      "nombre": "Ingenieria de Sistemas",
+      "salario": "Salario aproximado: $60,000 - $120,000.",
+      "requisitos": "Esta carrera se enfoca en el diseño, implementación y mantenimiento de sistemas informáticos y software. Los ingenieros de sistemas pueden trabajar en una variedad de entornos, como empresas de tecnología, consultorías o en el sector público.",
+      "popular": "Es una carrera en crecimiento con un número creciente de profesionales en ejercicio.",
+      "ubicacion": "Universidad Nacional de Ingeniería (UNI), Pontificia Universidad Católica del Perú (PUCP), Universidad de Lima, Universidad Peruana de Ciencias Aplicadas (UPC).",
+      "dificultad": "Dificultad - 6."
+    },
+    {
+      "id": 7,
+      "nombre": "Psicologia",
+      "salario": "Salario aproximado: $40,000 - $90,000.",
+      "requisitos": "Esta carrera se enfoca en el estudio del comportamiento humano y la mente. Los psicólogos pueden trabajar en una variedad de entornos, como clínicas, hospitales, empresas o instituciones educativas.",
+      "popular": "Es una profesión con un número considerable de profesionales en ejercicio, aunque menos numerosa en comparación con otras carreras mencionadas anteriormente.",
+      "ubicacion": "Universidad Nacional Mayor de San Marcos, Universidad Peruana Cayetano Heredia, Universidad de Lima, Universidad Peruana de Ciencias Aplicadas (UPC).",
+      "dificultad": "Dificultad - 4."
+    },
+    {
+      "id": 8,
+      "nombre": "Contabilidad",
+      "salario": "Salario aproximado: $45,000 - $100,000.",
+      "requisitos": "Esta carrera se enfoca en el estudio de las finanzas y la contabilidad empresarial. Los egresados pueden trabajar como contadores, auditores, asesores fiscales o en finanzas corporativas.",
+      "popular": "Es una profesión ampliamente ejercida y con una demanda constante en el mercado laboral.",
+      "ubicacion": "Universidad de Lima, Universidad del Pacífico, Universidad Peruana de Ciencias Aplicadas (UPC), Universidad San Ignacio de Loyola (USIL).",
+      "dificultad": "Dificultad - 6."
     }
   ]
 }
