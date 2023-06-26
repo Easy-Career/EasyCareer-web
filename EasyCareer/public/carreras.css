@@ -163,3 +163,15 @@ body {
   .basico {
     display: block;
   }
+
+  .agregar-button{
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 50px;
+    background-color: #59b4f0;
+    color: white;
+    font-size: 18px;
+    border-radius: 25px;
+    cursor: pointer;
+  }

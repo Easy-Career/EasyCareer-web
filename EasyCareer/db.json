@@ -16,7 +16,6 @@
       "contrasena": "qwerty"
     }
   ],
-
   "carreras": [
     {
       "id": 1,
@@ -62,7 +61,8 @@
       "popular": "Es una profesión con una cantidad significativa de arquitectos en ejercicio.",
       "ubicacion": "Universidad Nacional de Ingeniería (UNI), Pontificia Universidad Católica del Perú (PUCP), Universidad Ricardo Palma, Universidad Peruana de Ciencias Aplicadas (UPC).",
       "dificultad": "Dificultad - 7."
-    },{
+    },
+    {
       "id": 6,
       "nombre": "Ingenieria de Sistemas",
       "salario": "Salario aproximado: $60,000 - $120,000.",
