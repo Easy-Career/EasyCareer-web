@@ -1,54 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8">
-  <title>Mi Página Principal</title>
-  <link rel="stylesheet" href="styles.css">
+  <title>Iniciar sesión</title>
+  <link rel="stylesheet" type="text/css" href="index.css">
 </head>
 <body>
-    <header class="header-top">
-        <div class="logo">
-            <img src="https://drive.google.com/uc?id=1PFsZx-fKzwzf3nRyY-0ZvtKIlMFrq_x7" alt="Logo">
-            <div class="title">
-                <h1>Easy Carreer</h1>
-                <p>Encuentra tu camino con Easy Carreer</p>
-            </div>
-        </div>
-    </header>    
-    <header class="header-nav"></header>
-        <nav>
-          <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="test.html">Test</a></li>
-            <li><a href="universidades.html">Universidad</a></li>
-            <li><a href="pfrecuentes.html">Preguntas Frecuentes</a></li>
-            <li><a href="carreras.html">Carreras Profesionales</a></li>
-          </ul>
-        </nav>
-      </header>
-      
-      
+  <div class="container">
+    <h1>Iniciar sesión</h1>
+    <div class="form-group">
+      <label for="email">Correo electrónico:</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+    <div class="form-group">
+      <label for="password">Contraseña:</label>
+      <input type="password" id="password" name="password" required>
+    </div>
+    <button id="login-btn">Ingresar</button>
 
-  <main>
-    <div class="section-container">
-        <section class="left-section">
-          <h2>¿Elegir una carrera?</h2>
-          <p>Elegir la carrera que deseas estudiar es una de las decisiones más importantes que tomarás en tu vida. Esta elección determinará no solo tu formación como adulto, sino también tu futuro profesional. Por esta razón, es crucial saber cómo elegir una carrera universitaria que te permita no solo encontrar un trabajo, sino también alcanzar tus objetivos personales y sentirte realizado. A pesar de la importancia de esta elección, elegir una carrera no es una tarea fácil, especialmente con la gran cantidad de profesiones y carreras universitarias disponibles.</p>
-          <p>Es común sentirse perdido e indeciso al momento de tomar esta decisión. Sin embargo, no te preocupes, no estás solo en este proceso. En Easy Career, estamos aquí para ayudarte a tomar una decisión informada. Ofrecemos test vocacionales y herramientas para que puedas explorar tus intereses y habilidades, y así tener una idea clara de cuál carrera es la mejor opción para ti. Con nuestro apoyo, puedes estar seguro de que tomarás una decisión bien fundamentada y podrás encaminarte hacia un futuro académico y profesional exitoso.</p>
-          <img src="https://cso.computerworld.es/archivos/201802/graduados.jpeg" alt="imgGraduados">
-        </section>
-      
-        <section class="right-section">
-          <img src="https://i0.wp.com/robbreport.mx/wp-content/uploads/2019/08/destacada-nota-2.jpg?w=526&ssl=1" alt="Imagen">
-          <h2>Misión y Visión</h2>
-          <p>Misión: Ayudar a los estudiantes a tomar decisiones informadas y significativas sobre su futuro académico y profesional, proporcionándoles evaluaciones de orientación vocacional precisas y relevantes.</p>
-          <p>Visión: Ser reconocidos como líderes en el campo de la orientación vocacional, a través de la innovación y el uso de tecnología de vanguardia, para que los estudiantes puedan descubrir su verdadero potencial y lograr sus objetivos personales y profesionales con confianza.</p>
-        </section>
-      </div>
+  </div>
 
-    <!-- Agrega más secciones de contenido aquí -->
-
-  </main>
-
+  <script src="index.js"></script>
 </body>
 </html>

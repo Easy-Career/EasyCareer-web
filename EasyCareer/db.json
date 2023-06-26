@@ -1,19 +1,31 @@
 {
-  "posts": [
+  "users": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "correo": "admin@email.com",
+      "contrasena": "qwerty"
+    },
+    {
+      "id": 2,
+      "correo": "admin2@email.com",
+      "contrasena": "qwerty"
+    },
+    {
+      "id": 3,
+      "correo": "admin3@email.com",
+      "contrasena": "qwerty"
     }
   ],
-  "comments": [
+
+  "carreras": [
     {
       "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "nombre": "medicina",
+      "salario": "Salario aproximado: $100,000 - $300,000.",
+      "requisitos": "Es una carrera que se enfoca en el estudio de la salud humana y el diagnóstico y tratamiento de enfermedades. Los médicos pueden trabajar en una variedad de entornos, como hospitales, clínicas, consultorios privados o en investigación.",
+      "popular": "Es una de las carreras más populares y cuenta con un gran número de profesionales en ejercicio.",
+      "ubicacion": "Universidad Nacional Mayor de San Marcos, Universidad Peruana Cayetano Heredia, Universidad de Lima, Universidad Peruana de Ciencias Aplicadas (UPC).",
+      "dificultad": "Dificultad - 9."
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
